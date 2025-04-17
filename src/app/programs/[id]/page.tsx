@@ -12,7 +12,6 @@ const ProgramDetailPage = async () => {
         You are not authorised to see details of others. Log in and generate your plan, then you can see your own details.
       </p>
 
-      {/* If user is not signed in, show login and signup options */}
       {!user ? (
         <div className="flex justify-center gap-4">
           <SignInButton>
