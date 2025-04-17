@@ -4,7 +4,7 @@ export default function ContactPage() {
         <h1 className="text-4xl font-bold text-primary mb-6">Contact Us</h1>
         
         <p className="text-muted-foreground mb-8">
-          We're here to help! Reach out to us through any of the methods below, or drop a message using the contact form.
+          We are here to help! Reach out to us through any of the methods below, or drop a message using the contact form.
         </p>
   
         <div className="mb-12 space-y-4 text-base text-muted-foreground">

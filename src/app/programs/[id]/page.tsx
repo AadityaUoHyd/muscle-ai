@@ -2,7 +2,8 @@ import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 
 const ProgramDetailPage = async ({ params }: { params: { id: string } }) => {
-  // Checking if the user is logged in
+
+  const _ = params;
   const user = await currentUser();
 
   return (
