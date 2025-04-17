@@ -1,9 +1,7 @@
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 
-const ProgramDetailPage = async ({ params }: { params: { id: string } }) => {
-
-  const _ = params;
+const ProgramDetailPage = async () => {
   const user = await currentUser();
 
   return (
